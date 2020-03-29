@@ -15,7 +15,7 @@ class EricBot:
             'smash': [r'.*smash.*'],
             'switch': [r'.*switch.*'],
             'desculpa': [r'.*desculp(a|e).*'],
-            'epetusp': [r'.* epetusp .*'],
+            'epetusp': [r'.*epetusp.*'],
             'concordo': [r'(.*) (é|eh) (.*)((, )?(ne|né|(nao|não|n)(eh|é)))?(\?)?']
         }
     
