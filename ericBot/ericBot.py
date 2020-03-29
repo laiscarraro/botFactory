@@ -67,7 +67,7 @@ class EricBot:
                         return self.nao_fala_de_epetusp()
                     elif chave == 'concordo':
                         return self.concordo(deu_match.groups()[0], deu_match.groups()[2])
-        return eric.enviar("Vamos falar de outra coisa. O q vc acha " + self.assuntos[random.randint(0, len(self.assuntos))]+"?", True)
+        return eric.enviar("Vamos falar de outra coisa. O q vc acha " + self.assuntos[random.randint(0, len(self.assuntos)-1)]+"?", True)
     
     def bo_jogar_smash(self):
         eric.enviar("Ow, "+self.nome)
