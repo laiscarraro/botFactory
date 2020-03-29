@@ -7,12 +7,12 @@ eric = Digitador(bot_name = "Eric")
 class EricBot:
     
     resp_negativas = ("n", "nao", "não", "nah", "nope", "meh")
-    resp_sair = ("tchau", "embora", "sai", "vai", "vaza")
+    resp_sair = ("tchau", "embora", "sai", "vaza")
     assuntos = ("do PET", "de mim", "da Each", "do coronga", "de smash", "de game design", "do Felipe", "do André", "do Fukuda", "da Laís", "da USP", "do Grace", "do BXCOMP", "do Fala Coruja")
     
     def __init__(self):
         self.resp_dicio = {
-            'smash': [r'.*joga.*smash.*'],
+            'smash': [r'.*smash.*'],
             'switch': [r'.*switch.*'],
             'desculpa': [r'.*desculp(a|e).*'],
             'epetusp': [r'.* epetusp .*'],
