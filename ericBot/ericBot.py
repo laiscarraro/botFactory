@@ -16,7 +16,7 @@ class EricBot:
             'switch': [r'.*switch.*'],
             'desculpa': [r'.*desculp(a|e).*'],
             'epetusp': [r'.*epetusp.*'],
-            'concordo': [r'(.*) (é|eh) (.*)((, )?(ne|né|(nao|não|n)(eh|é)))?(\?)?']
+            'concordo': [r'(.*) (é|eh) (.*) ((, )?(ne|né|(nao|não|n)(eh|é)))?(\?)?']
         }
     
     def inicio(self):
