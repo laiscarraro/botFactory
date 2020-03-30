@@ -32,10 +32,7 @@ def pre_processamento(texto, so_tokenizar=False, sem_stopwords=True, lemma=True)
     lemmatizado = [token.lemma_ for token in texto2]
     resp = lemmatizado
   if sem_stopwords:
-    try:
-      lixo = set(stopwords.words('portuguese'))
-    except:
-      
+    lixo = set(stopwords.words('portuguese'))
     no_stop = [token for token in resp if token not in lixo]
     resp = no_stop
   return resp
